@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home {
+  background-color: #f9f5eb;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(#ea5455 2px, transparent 2px);
+  background-size: 20px 20px;
+}
+.bg {
+  background-color: #232020;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(gray 2px, transparent 2px);
+  background-size: 20px 20px;
+}
